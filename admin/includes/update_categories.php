@@ -1,0 +1,20 @@
+<form action="" method="post">
+    <div class="form-group">
+        <label for="cat-title">Edit Category </label>
+        <?php //Edit Categories
+        editCategories();
+
+
+        //Update Query
+
+        updateCAtegories();
+
+        ?>
+
+
+
+    </div>
+    <div class="form-group">
+        <input class="btn btn-primary" type="submit" name="update_category" value="Update Category">
+    </div>
+</form>
